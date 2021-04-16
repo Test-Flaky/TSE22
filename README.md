@@ -1,15 +1,15 @@
-This repository contains the dataset of flaky tests for the "A Study of Test Flakiness Across Programming Languages" paper.
+This repository contains the dataset of flaky tests for the "[A Study of Test Flakiness Across Programming Languages](http:/.../A Study of Test Flakiness Across Programming Languages.pdf)"" paper.
 
 ## Anonymized Dataset
 
-The anonymous dataset contains 1,291 Issues which were extracted from GitHub through the Script that is stored here.
+The anonymous dataset contains 1,291 Issues which were extracted from GitHub through the Script that is stored [here](https://github.com/Test-Flaky/Flakiness/blob/main/src/Script-flakiness.py).
 
-This dataset is categorized into causes and the Flaky test solution is stored here.
+This dataset is categorized into causes and the Flaky test solution is stored [here](https://github.com/Test-Flaky/Flakiness/blob/main/data/IssuesGH_Flaky.xlsx).
 These problems involved a total of 325 open source GitHub projects written primarily in four programming languages: Go, Java, JavaScript and Python.
 
 We classify a number of root causes (473) and solutions (390).
 
-**This dataset contains the following cause classifications for Flaky Tests:**
+### This dataset contains the following cause classifications for Flaky Tests:
 
 | Problem | Initials|
 | --- | --- |
@@ -28,10 +28,10 @@ We classify a number of root causes (473) and solutions (390).
 | Test Suite Timeout | TST |
 
 
-**And the following classifications of solution strategies:**
+### And the following classifications of solution strategies:
 
-| --- |
 | Solution |
+| --- |
 | PD - Correct Directories |
 | AW - Add/modify waitFor |
 | AW - Add/modify sleep |
@@ -55,7 +55,6 @@ We classify a number of root causes (473) and solutions (390).
 | TOD - Remove Dependency |
 | TST - Skip Non-Initialized Part |
 | TRR - Calibrate assertion |
-
 | Hard to Classify |
 | N - Disable Test |
 | C - Disable Test |
