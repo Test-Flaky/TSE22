@@ -2,14 +2,13 @@ This repository contains the dataset of flaky tests for the "**A Study of Test F
 
 ## Anonymized Dataset
 
-The anonymous dataset contains https://img.shields.io/badge/issues-1291-red which were extracted from GitHub through the Script that is stored [here](https://github.com/Test-Flaky/Flakiness/blob/main/src/Script-flakiness.py).
+The anonymous dataset contains issues 1.291 which were extracted from GitHub through the Script that is stored [here](https://github.com/Test-Flaky/Flakiness/blob/main/src/Script-flakiness.py).
 
 This dataset is categorized into causes and the Flaky test solution is stored [here](https://github.com/Test-Flaky/Flakiness/blob/main/data/IssuesGH_Flaky.xlsx).
 These problems involved a total of 325 open source GitHub projects written primarily in four programming languages: [Go](https://img.shields.io/badge/issues-1291-red), [Java](https://www.java.com/pt-BR/), [JavaScript](https://www.javascript.com/) and [Python](https://www.python.org/).
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][Go-url]
-[![Downloads Stats][npm-downloads]][Java-url]
+https://img.shields.io/static/v1?label=<https://www.python.org/>&message=<Python>&color=<blue>
+
 
 We classify a number of root causes (473) and solutions (390).
 
