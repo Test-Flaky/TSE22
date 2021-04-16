@@ -7,9 +7,6 @@ The anonymous dataset contains issues 1.291 which were extracted from GitHub thr
 This dataset is categorized into causes and the Flaky test solution is stored [here](https://github.com/Test-Flaky/Flakiness/blob/main/data/IssuesGH_Flaky.xlsx).
 These problems involved a total of 325 open source GitHub projects written primarily in four programming languages: [Go](https://img.shields.io/badge/issues-1291-red), [Java](https://www.java.com/pt-BR/), [JavaScript](https://www.javascript.com/) and [Python](https://www.python.org/).
 
-https://img.shields.io/static/v1?label=<https://www.python.org/>&message=<Python>&color=<blue>
-
-
 We classify a number of root causes (473) and solutions (390).
 
 ### This dataset contains the following cause classifications for Flaky Tests and the following classifications of solution strategies:
