@@ -2,10 +2,10 @@ This repository contains the dataset of flaky tests for the "**A Study of Test F
 
 ## Anonymized Dataset
 
-The anonymous dataset contains 1.291 issues which were extracted from projects stored on github through the Script that is stored [here](https://github.com/Test-Flaky/Flakiness/blob/main/src/Script-flakiness.py).
+The anonymous dataset contains 1.291 issues which were extracted from projects stored on GitHub through the Script that is stored [here](https://github.com/Test-Flaky/Flakiness/blob/main/src/Script-flakiness.py).
 
 This dataset is categorized into causes and the Flaky test solution is stored [here](https://github.com/Test-Flaky/Flakiness/blob/main/data/IssuesGH_Flaky.xlsx).
-These problems involved a total of 325 open source GitHub projects written primarily in four programming languages: [Go](https://img.shields.io/badge/issues-1291-red), [Java](https://www.java.com/pt-BR/), [JavaScript](https://www.javascript.com/) and [Python](https://www.python.org/).
+These problems involved a total of 325 open source GitHub projects written primarily in four programming languages: [Go](https://img.shields.io/badge/issues-1291-red), [Java](https://www.java.com/pt-BR/), [JavaScript](https://www.javascript.com/), and [Python](https://www.python.org/).
 
 We classify a number of root causes (473) and solutions (390).
 
@@ -27,4 +27,4 @@ We classify a number of root causes (473) and solutions (390).
 |  |  | PD - Correct Directories |  | All categories |  | Hard to Classify |
 
 
-We believe that the data set will be useful for the research community, not only to conduct research on various aspects of Flakys tests and their root causes, but also for a general understanding of behavior and how it is possible to resolve such instability in these tests.
+We believe that the data set will be useful for the research community, not only to conduct research on various aspects of Flaky tests and their root causes but also for a general understanding of behavior and how it is possible to resolve such instability in these tests.
