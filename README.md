@@ -1,4 +1,4 @@
-This repository contains the dataset of flaky tests for the "**A Study of Test Flakiness Across Programming Languages**" paper.
+This repository contains the dataset of flaky tests for the "**Test Flakiness Across Programming Languages**" paper.
 
 ## Anonymized Dataset
 
