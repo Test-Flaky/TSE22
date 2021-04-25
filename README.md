@@ -11,6 +11,11 @@ We classify a number of root causes (473) and solutions (390).
 
 #### This dataset contains the following cause classifications for Flaky Tests:
 
+
+
+
+
+
 | Root Cause | Initials |
 | --- | --- |
 | Async Wait | AW |
@@ -30,32 +35,7 @@ We classify a number of root causes (473) and solutions (390).
 
 #### This dataset contains the following fix classifications for Flaky Tests:
 
-| Fix Strategy |
-| --- |
-| AW - Add/modify waitFor |
-| AW - Add/modify sleep |
-| AW - Reorder execution |
-| C - Other |
-| C - Add/modify waitFor |
-| C - Change condition |
-| C - Protect regions |
-| FPO - Revise assertions |
-| N - Add/modify waitFor |
-| N - Add/modify Mocks |
-| PD - Add/modify tests |
-| PD - Correct Directories |
-| R - Control the Seed |
-| R - No Math.Random |
-| RL - Release resource |
-| TST - Split Test Suite |
-| TST - Skip Non-Initialized Part |
-| TCT - Increase Timeout |
-| TOD - Remove Dependency |
-| TOD - Setup/cleanup state |
-| T - Avoid Time Imprecision |
-| TRR - Calibrate assertion |
-| UC - Not Specific Ordering |
-| Hard to Classify |
+![myimage-alt-tag](https://github.com/Test-Flaky/OOPSLA21/blob/main/Image/Fix.png)
 
 
 We believe that the data set will be useful for the research community, not only to conduct research on various aspects of Flaky tests and their root causes but also for a general understanding of behavior and how it is possible to resolve such instability in these tests.
