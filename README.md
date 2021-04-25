@@ -11,26 +11,7 @@ We classify a number of root causes (473) and solutions (390).
 
 #### This dataset contains the following cause classifications for Flaky Tests:
 
-
-
-
-
-
-| Root Cause | Initials |
-| --- | --- |
-| Async Wait | AW |
-| Concurrency | C |
-| Floating Point Operations | FPO |
-| Network | N |
-| Platform Dependency | PD |
-| Randomness | R |
-| Resource Leak | RL |
-| Test Suite Timeout | TST |
-| Test Case Timeout | TCT |
-| Test Order Dependency | TOD |
-| Time | T |
-| Too Restrictive Range | TRR |
-| Unordered Collections | UC |
+![myimage-alt-tag](https://github.com/Test-Flaky/OOPSLA21/blob/main/Image/cause.png)
 
 
 #### This dataset contains the following fix classifications for Flaky Tests:
