@@ -10,7 +10,7 @@ token = ' '
 gh_session = requests.Session()
 gh_session.auth = (username, token)
 
-languages=["go", "python", "ruby", "java", "js"]
+languages=["go", "python", "java", "js"]
 search_str="flaky AND test"
 label_str="bug"
 state_str="closed"
