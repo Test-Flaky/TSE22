@@ -15,6 +15,22 @@ We configured the results to return a spreadsheet (.csv) with 1200 Issues.
 
 The anonymous dataset contains 1.200 issues which were extracted from projects stored on GitHub through the Script.
 
+The data is organized in tabs within the spreadsheet as we will explain below:
+
+**Aba Data**
+
+The "Data" tab contains the Issues data and is organized in columns.
+
+ID: Unique identifier for each Issue.
+Repository / Project: Name of the repository registered on GitHub for that Issue.
+Language: Language-specific to each Issue.
+Status: Defines whether Flaky is True ("T"), False Positive ("F"), or Not determined ("ND").
+Label: label registered in the Issue.
+Issue status: defines the status found in the Issue.
+Year: Year the Issue was created.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
 This dataset is categorized into causes and the Flaky test solution is stored [here](https://github.com/Test-Flaky/OOPSLA21/tree/main/data).
 These Root Cause involved a total of 325 open source GitHub projects written primarily in four programming languages: Go, Java, JavaScript and Python.
 
