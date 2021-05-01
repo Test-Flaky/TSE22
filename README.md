@@ -1,8 +1,19 @@
 This repository contains the dataset of flaky tests for the "**Test Flakiness Across Programming Languages**" paper.
 
+## Script for data capture
+
+A script is written in Python [here](https://github.com/Test-Flaky/Flakiness/blob/main/src/Script-flakiness.py) was used to connect to the GitHub API, returning issues according to the filters:
+
+1. Issues only for the Go, Python, Java, and JavaScript programming languages.
+2. Search for content in issues by keywords "Flaky" and "Test".
+3. Only Issues with label "bug".
+4. Only Issues with "closed" status.
+
+We configured the results to return a spreadsheet (.csv) with 1200 Issues.
+
 ## Anonymized Dataset
 
-The anonymous dataset contains 1.200 issues which were extracted from projects stored on GitHub through the Script that is stored [here](https://github.com/Test-Flaky/Flakiness/blob/main/src/Script-flakiness.py).
+The anonymous dataset contains 1.200 issues which were extracted from projects stored on GitHub through the Script.
 
 This dataset is categorized into causes and the Flaky test solution is stored [here](https://github.com/Test-Flaky/OOPSLA21/tree/main/data).
 These Root Cause involved a total of 325 open source GitHub projects written primarily in four programming languages: Go, Java, JavaScript and Python.
