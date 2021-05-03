@@ -32,8 +32,8 @@ The "Data" tab contains the Issues data and is organized in columns.
 * Repository / Project: Name of the repository registered on GitHub for that Issue.
 * Language: Language-specific to each Issue.
 * Status: Defines whether Flaky is True ("T"), False Positive ("F"), or Not determined ("ND").
-* Label: label registered in the Issue.
-* Issue status: defines the status found in the Issue.
+* Label: Label registered in the Issue.
+* Issue status: Defines the status found in the Issue.
 * Year: Year the Issue was created.
 * URL Issue: Save the issues link.
 
