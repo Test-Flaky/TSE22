@@ -42,8 +42,6 @@ We also divided the spreadsheet into Problem and Solution where each one has:
 * Reviewers: This column shows which author has reviewed that issue.
 * Description: It is an excerpt from the issue that helps to support the decision to choose the category.
 
-#### This dataset contains the following cause classifications for Flaky Tests
-
 **Aba Problem**
 
 The "Problem" tab is the reference that supported the authors in making a decision for which category of problems issues should be categorized.
@@ -52,11 +50,9 @@ This tab is organized with the columns as follows:
 * Root Cause Category: Name used by previous authors for a given problem category.
 * Description: Description found in the works.
 * Support: Amount of times this Root Cause Category occurred in the "Data" tab.
-* # [n]: Number of times that Root Cause Category occurred in reference works [n].
+* [n]: Number of times that Root Cause Category occurred in reference works [n].
 
 Finally, in line 17 is the sum of each column.
-
-#### This dataset contains the following fix classifications for Flaky Tests
 
 **Aba Solution**
 
