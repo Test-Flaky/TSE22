@@ -26,7 +26,7 @@ The anonymous dataset contains 1.200 issues which were extracted from projects s
 
 The data is organized in tabs within the spreadsheet as we will explain below:
 
-**Aba Data**
+**Sheet Data**
 
 The "Data" tab contains the Issues data and is organized in columns.
 
@@ -44,7 +44,7 @@ We also divided the spreadsheet into Problem and Solution where each one has:
 * Reviewers: This column shows which author has reviewed that issue.
 * Description: It is an excerpt from the issue that helps to support the decision to choose the category.
 
-**Aba Problem**
+**Sheet Problem**
 
 The "Problem" tab is the reference that supported the authors in making a decision for which category of problems issues should be categorized.
 This tab is organized with the columns as follows:
@@ -56,7 +56,7 @@ This tab is organized with the columns as follows:
 
 Finally, in line 17 is the sum of each column.
 
-**Aba Solution**
+**Sheet Solution**
 
 The "Solution" tab is the reference that supported the authors in making a decision for which category of problems issues should be categorized.
 This tab is organized with the columns as follows:
@@ -73,6 +73,9 @@ Line 27 of this tab contains the sum of supports.
 Starting on line 29, we have the categories of solutions that we did not find in our data.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
+## Research questions
 
+To answer survey questions, you need to refer to the "RQ1 and RQ2" sheet for more details. Where it will be possible to view the RQ's and their tables with the respective results.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 We believe that the data set will be useful for the research community, not only to conduct research on various aspects of Flaky tests and their root causes but also for a general understanding of behavior and how it is possible to resolve such instability in these tests.
