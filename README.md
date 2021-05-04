@@ -73,7 +73,7 @@ Line 27 of this tab contains the sum of supports.
 Starting on line 29, we have the categories of solutions that we did not find in our data.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-## Research questions
+## Research Questions
 
 To answer survey questions, you need to refer to the "RQ1 and RQ2" sheet for more details. Where it will be possible to view the RQ's and their tables with the respective results.
 
