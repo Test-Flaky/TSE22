@@ -33,7 +33,7 @@ These Root Cause involved a total of 325 open source GitHub projects written pri
 The anonymous dataset contains 1.200 issues which were extracted from projects stored on GitHub through the Script.
 --->
 
-A flaky test is associated with (1) a **root cause** that explains the reason for flakiness and (2) a **fix strategy** that explain how developers addreessed flakiness. We aimed to classified 100 root causes and fix strategy for each language. We classified a total of **472 root causes** and **389 fix strategies**.
+A flaky test is associated with (1) a **root cause** that explains the reason for flakiness and (2) a **fix strategy** that explains how developers addreessed flakiness. We aimed to classified 100 root causes and fix strategy for each language. We classified a total of **472 root causes** and **389 fix strategies**.
 
 The data is available in [a spreadsheet](https://github.com/Test-Flaky/OOPSLA21/blob/main/data/DataBase_GitHub.xlsx) with data organied in different tabs:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;(1) Data<br>
@@ -42,9 +42,9 @@ The data is available in [a spreadsheet](https://github.com/Test-Flaky/OOPSLA21/
   
 We elaborate in the following the structure of each tabe.
 
-**Sheet Data**
+**Data**
 
-The "Data" tab contains the Issues data and is organized in columns.
+This tab contains the Issues data and is organized in columns.
 
 * ID: Unique identifier for each Issue.
 * Repository / Project: Name of the repository registered on GitHub for that Issue.
@@ -60,9 +60,9 @@ We also divided the spreadsheet into Problem and Solution where each one has:
 * Reviewers: This column shows which author has reviewed that issue.
 * Description: It is an excerpt from the issue that helps to support the decision to choose the category.
 
-**Sheet Problem**
+**Problem**
 
-The "Problem" tab is the reference that supported the authors in making a decision for which category of problems issues should be categorized.
+This tab is the reference that supported the authors in making a decision for which category of problems issues should be categorized.
 This tab is organized with the columns as follows:
 * References: Previous work that reported the problem category.
 * Root Cause Category: Name used by previous authors for a given problem category.
@@ -72,9 +72,9 @@ This tab is organized with the columns as follows:
 
 Finally, in line 17 is the sum of each column.
 
-**Sheet Solution**
+**Solution**
 
-The "Solution" tab is the reference that supported the authors in making a decision for which category of problems issues should be categorized.
+This tab is the reference that supported the authors in making a decision for which category of problems issues should be categorized.
 This tab is organized with the columns as follows:
 
 * Support: Number of times the category occurred in the "Date" tab.
