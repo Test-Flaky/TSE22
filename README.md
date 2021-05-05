@@ -36,9 +36,9 @@ The anonymous dataset contains 1.200 issues which were extracted from projects s
 A flaky test is associated with (1) a **root cause** that explains the reason for flakiness and (2) a **fix strategy** that explain how developers addreessed flakiness. We aimed to classified 100 root causes and fix strategy for each language. We classified a total of **472 root causes** and **389 fix strategies**.
 
 The data is available in [a spreadsheet](https://github.com/Test-Flaky/OOPSLA21/blob/main/data/DataBase_GitHub.xlsx) with data organied in different tabs:<br>
-  (1) Data<br>
-  (2) Problem<br>
-  (3) Solution<br>
+&nbsp;&nbsp;&nbsp;&nbsp;(1) Data<br>
+&nbsp;&nbsp;&nbsp;&nbsp;(2) Problem<br>
+&nbsp;&nbsp;&nbsp;&nbsp;(3) Solution<br>
   
 We elaborate in the following the structure of each tabe.
 
