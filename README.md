@@ -1,6 +1,14 @@
-This repository contains the dataset of flaky tests for the "**Test Flakiness Across Programming Languages**" paper. This paper studies the phenomenon of flakyness through programming languages.
+This repository contains a dataset of flaky tests associated with GitHub projects written in four different programming languages.
 
-This repository is organized in two subdirectories (data) where the spreadsheet with the data can be found and (src) where the script used to extract the issues can be found.
+This dataset is used in the paper<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;"**Test Flakiness Across Programming Languages**",<br>
+which investigates the phenomenon of flakyness across programming languages.
+
+This repository is organized as follows:<br>
+/<br>
+├── data/&nbsp;&nbsp;&nbsp;&nbsp;<= where the spreadsheet with the data can be found<br>
+└── src/&nbsp;&nbsp;&nbsp;&nbsp;<= where the script to extract the issues can be found<br>
+
 
 ## Script for data capture
 
