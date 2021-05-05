@@ -85,4 +85,3 @@ Starting on line 29, we have the categories of solutions that we did not find in
 To answer survey questions, you need to refer to the "RQ1 and RQ2" sheet for more details. Where it will be possible to view the RQ's and their tables with the respective results.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-We believe that the data set will be useful for the research community, not only to conduct research on various aspects of Flaky tests and their root causes but also for a general understanding of behavior and how it is possible to resolve such instability in these tests.
