@@ -1,6 +1,6 @@
 This repository contains a dataset of flaky tests associated with GitHub projects written in four different programming languages.
 
-This dataset is used in the paper<br> 
+This dataset is the basis of the paper<br> 
 &nbsp;&nbsp;&nbsp;&nbsp;**Test Flakiness Across Programming Languages**,<br>
 which investigates the phenomenon of flakyness across programming languages.
 
