@@ -40,7 +40,7 @@ The data is available in [a spreadsheet](https://github.com/Test-Flaky/OOPSLA21/
 &nbsp;&nbsp;&nbsp;&nbsp;(2) Problem<br>
 &nbsp;&nbsp;&nbsp;&nbsp;(3) Solution<br>
   
-We elaborate in the following the structure of each tabe.
+We elaborate in the following the structure of each tab.
 
 **Data**
 
