@@ -1,29 +1,28 @@
 This repository contains a dataset of flaky tests associated with GitHub projects written in four different programming languages.
 
 This dataset is used in the paper<br> 
-&nbsp;&nbsp;&nbsp;&nbsp;"**Test Flakiness Across Programming Languages**",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;**Test Flakiness Across Programming Languages**,<br>
 which investigates the phenomenon of flakyness across programming languages.
 
 This repository is organized as follows:<br>
 /<br>
 ├── data/&nbsp;&nbsp;&nbsp;&nbsp;<= where the spreadsheet with the data can be found<br>
-└── src/&nbsp;&nbsp;&nbsp;&nbsp;<= where the script to extract the issues can be found<br>
+└── src/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<= where the script to extract the issues can be found<br>
 
+## Script (under /src)
 
-## Script for data capture
+We used [a script in Python](https://github.com/Test-Flaky/Flakiness/blob/main/src/Script-flakiness.py) to access issues related to flakiness. We used the GitHub API for that. The script uses the following filters for issues:
 
-A script is written in Python [here](https://github.com/Test-Flaky/Flakiness/blob/main/src/Script-flakiness.py) was used to connect to the GitHub API, returning issues according to the filters:
+1. From projects written in Go, Python, Java, or JavaScript;
+2. Use keywords "Flaky" *and* "Test";
+3. Contain label "bug";
+4. Status is "closed".
 
-1. Issues only for the Go, Python, Java, and JavaScript programming languages.
-2. Search for content in issues by keywords "Flaky" and "Test".
-3. Only Issues with label "bug".
-4. Only Issues with "closed" status.
-
-We configured the results to return a spreadsheet (.csv) with 1200 issues, 300 issues for each programming language.
+The script caps results at 300 isues per programming language. The output is a spreadsheet (.csv) with 1200 issues, 300 issues for each programming language.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Dataset
+## Spreadsheet (under /data)
 
 This dataset is categorized into causes and the Flaky test solution is stored [here](https://github.com/Test-Flaky/OOPSLA21/tree/main/data).
 These Root Cause involved a total of 325 open source GitHub projects written primarily in four programming languages: Go, Java, JavaScript and Python.
