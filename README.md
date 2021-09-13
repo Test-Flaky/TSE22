@@ -13,12 +13,12 @@ This repository is organized as follows:<br>
 
 We used [a script in Python](https://github.com/Test-Flaky/Flakiness/blob/main/src/Script-flakiness.py) to access issues related to flakiness. We used the GitHub API for that. The script uses the following filters for issues:
 
-1. From projects written in Go, Python, Java, or JavaScript;
+1. From projects written in C, Go, Python, Java, or JavaScript;
 2. Use keywords "Flaky" *and* "Test";
 3. Contain label "bug";
 4. Status is "closed".
 
-The script caps results at 300 isues per programming language. The output is a spreadsheet (.csv) with 1200 issues, 300 issues for each programming language.
+The script caps results at 300 isues per programming language. The output is a spreadsheet (.csv) with 1500 issues, 300 issues for each programming language.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -30,7 +30,7 @@ These Root Cause involved a total of 325 open source GitHub projects written pri
 --->
 
 <!---
-The anonymous dataset contains 1.200 issues which were extracted from projects stored on GitHub through the Script.
+The anonymous dataset contains 1.500 issues which were extracted from projects stored on GitHub through the Script.
 --->
 
 A flaky test is associated with (1) a **root cause** that explains the reason for flakiness and (2) a **fix strategy** that explains how developers addreessed flakiness. We aimed to classified 100 root causes and fix strategy for each language. We classified a total of **472 root causes** and **389 fix strategies**.
