@@ -25,17 +25,17 @@ The script caps results at 300 isues per programming language. The output is a s
 ## Spreadsheet (under /data)
 
 <!---
-This dataset is categorized into causes and the Flaky test solution is stored [here](https://github.com/Test-Flaky/OOPSLA21/tree/main/data).
-These Root Cause involved a total of 325 open source GitHub projects written primarily in four programming languages: Go, Java, JavaScript and Python.
+This dataset is categorized into causes and the Flaky test solution is stored [here](https://github.com/Test-Flaky/ICSE22/tree/main/data).
+These Root Cause involved a total of 421 open source GitHub projects written primarily in four programming languages: Go, Java, JavaScript and Python.
 --->
 
 <!---
 The anonymous dataset contains 1.500 issues which were extracted from projects stored on GitHub through the Script.
 --->
 
-A flaky test is associated with (1) a **root cause** that explains the reason for flakiness and (2) a **fix strategy** that explains how developers addreessed flakiness. We aimed to classified 100 root causes and fix strategy for each language. We classified a total of **472 root causes** and **389 fix strategies**.
+A flaky test is associated with (1) a **root cause** that explains the reason for flakiness and (2) a **fix strategy** that explains how developers addreessed flakiness. We aimed to classified 100 root causes and fix strategy for each language. We classified a total of **591 root causes** and **500 fix strategies**.
 
-The data is available in [a spreadsheet](https://github.com/Test-Flaky/OOPSLA21/blob/main/data/DataBase_GitHub.xlsx) with data organied in different tabs:<br>
+The data is available in [a spreadsheet](https://github.com/Test-Flaky/ICSE22/blob/main/data/DataBase_GitHub.xlsx) with data organied in different tabs:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;(1) Data<br>
 &nbsp;&nbsp;&nbsp;&nbsp;(2) Problem<br>
 &nbsp;&nbsp;&nbsp;&nbsp;(3) Solution<br>
