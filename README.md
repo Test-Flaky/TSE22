@@ -1,4 +1,4 @@
-This repository contains a dataset of flaky tests associated with GitHub projects written in four different programming languages.
+This repository contains a dataset of flaky tests associated with GitHub projects written in five different programming languages.
 
 This dataset is the basis of the paper<br> 
 &nbsp;&nbsp;&nbsp;&nbsp;**Test Flakiness Across Programming Languages**,<br>
@@ -26,7 +26,7 @@ The script caps results at 300 isues per programming language. The output is a s
 
 <!---
 This dataset is categorized into causes and the Flaky test solution is stored [here](https://github.com/Test-Flaky/ICSE22/tree/main/data).
-These Root Cause involved a total of 421 open source GitHub projects written primarily in four programming languages: Go, Java, JavaScript and Python.
+These Root Cause involved a total of 421 open source GitHub projects written primarily in four programming languages: C, Go, Java, JavaScript and Python.
 --->
 
 <!---
@@ -54,6 +54,9 @@ This tab contains the Issues data and is organized in columns.
 * Issue status: Defines the status found in the Issue.
 * Year: Year the Issue was created.
 * URL Issue: Save the issues link.
+* M1: Number of days until issue is closed.
+* M2: Number of comments until issue is closed.
+* Domain: Application Domain.
 
 We also divided the spreadsheet into Problem and Solution where each one has:
 * Category: Defines which category (either problem or solution).
@@ -91,6 +94,6 @@ Starting on line 29, we have the categories of solutions that we did not find in
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Research Questions
 
-To answer survey questions, you need to refer to the "RQ1 and RQ2" sheet for more details. Where it will be possible to view the RQ's and their tables with the respective results.
+To answer survey questions, you need to refer to the sheet for more details. Where it will be possible to view the RQ's and their tables with the respective results.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
