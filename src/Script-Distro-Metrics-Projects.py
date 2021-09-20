@@ -4,8 +4,8 @@ import datetime
 
 #ADD YOUR CREDENTIALS TO CONTRIBUTE
 credentials = [
-    {'user': 'TestSmell', 'token': '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'},
-    {'user': 'Flaky', 'token': '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'}
+    {'user': 'TestSmell', 'token': 'YOUR CREDENTIALS'},
+    {'user': 'Flaky', 'token': 'YOUR CREDENTIALS'}
     ]
 
 username = credentials[0]['user']
