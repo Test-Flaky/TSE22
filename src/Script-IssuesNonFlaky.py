@@ -4,7 +4,7 @@ import csv
 
 #ADD YOUR CREDENTIALS TO CONTRIBUTE
 credentials = [
-    {'user': 'Flaky', 'token': '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'}
+    {'user': 'Flaky', 'token': 'YOUR CREDENTIALS'}
     ]
 
 username = credentials[0]['user']
