@@ -97,3 +97,26 @@ Starting on line 29, we have the categories of solutions that we did not find in
 To answer survey questions, you need to refer to the sheet for more details. Where it will be possible to view the RQ's and their tables with the respective results.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
+**Citation:**
+Barbosa, K., Ferreira, R., Pinto, G., d'Amorim, M., & Miranda, B. (2023). *Test Flakiness Across Programming Languages*. IEEE Transactions on Software Engineering, 49(4), 2039–2052. [https://doi.org/10.1109/TSE.2022.3208864](https://doi.org/10.1109/TSE.2022.3208864)
+
+#### BibTeX Entry
+
+```bibtex
+@article{10.1109/TSE.2022.3208864,
+  author = {Barbosa, Keila and Ferreira, Ronivaldo and Pinto, Gustavo and d'Amorim, Marcelo and Miranda, Breno},
+  title = {Test Flakiness Across Programming Languages},
+  year = {2023},
+  issue_date = {April 2023},
+  publisher = {IEEE Press},
+  volume = {49},
+  number = {4},
+  issn = {0098-5589},
+  url = {https://doi.org/10.1109/TSE.2022.3208864},
+  doi = {10.1109/TSE.2022.3208864},
+  journal = {IEEE Trans. Softw. Eng.},
+  month = {apr},
+  pages = {2039–2052},
+  numpages = {14}
+}
+-------------------------------------------------------------------------------------------------------------------------------------------------------
